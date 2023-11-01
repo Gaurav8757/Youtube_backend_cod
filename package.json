@@ -2,14 +2,19 @@
   "name": "chai-aur-backend",
   "version": "1.0.0",
   "description": "Youtube backend ",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/app.js"
   },
   "keywords": [
     "chai",
     "code"
   ],
   "author": "Gaurav Kumar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3"
+  }
 }
